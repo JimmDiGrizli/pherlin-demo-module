@@ -1,5 +1,5 @@
 {
-    "name": "getsky/phalcon-demo-module",
+    "name": "getsky/pherlin-demo-module",
     "type": "library",
     "description": "Demo module for Pherlin",
     "keywords": [ "module", "phalcon", "pherlin"],
