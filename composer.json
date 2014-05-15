@@ -1,0 +1,35 @@
+{
+    "name": "getsky/phalcon-demo-module",
+    "type": "library",
+    "description": "Demo module for Pherlin",
+    "keywords": [ "module", "phalcon", "pherlin"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JimmDiGrizli",
+            "email": "getmansk-y@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "ext-phalcon": ">=1.2.4,<2",
+
+        "getsky/phalcon-skeleton-provider": "1.0.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "squizlabs/php_codesniffer": "1.*",
+        "codeception/codeception": "*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "GetSky\\DemoModule\\": "src/"
+        }
+    }
+}
