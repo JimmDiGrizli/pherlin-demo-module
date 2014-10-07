@@ -1,0 +1,17 @@
+dispatcher:
+    provider: GetSky\Phalcon\Provider\DispatcherProvider
+    arg:
+        - service: config
+        - var: GetSky\DemoModule\Controllers
+
+view:
+    provider: GetSky\Phalcon\Provider\ViewProvider
+    arg:
+        - service: config
+        - var: DemoModule
+
+viewCache:
+    provider: GetSky\Phalcon\Provider\ViewCacheProvider
+    arg:
+        - service: config
+        - var: DemoModule
