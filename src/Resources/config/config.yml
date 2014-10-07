@@ -1,0 +1,7 @@
+view:
+    path: ../app/environment/%environment%/cache/volt/
+    extension: .volt
+    debug: true
+
+viewCache:
+    path: ../app/environment/%environment%/cache/frontend/
